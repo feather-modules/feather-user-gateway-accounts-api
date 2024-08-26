@@ -7,6 +7,7 @@ extension UserGateway.Accounts {
 
         enum Main: PathItem {
             static let path: Path = UserGateway.Accounts.path
+            public static let get: Operation.Type? = Operations.List.self
         }
 
         enum Identified: PathItem {

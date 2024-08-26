@@ -6,6 +6,18 @@ extension UserGateway.Accounts {
 
     enum Operations {
 
+        enum List: Operation {
+            static let security: [SecurityScheme.Type] = User.Account.Operations
+                .List.security
+            static let tag: Tag.Type = Tags.Main.self
+            static let summary = User.Account.Operations.List.summary
+            static let description = User.Account.Operations.List.description
+            static let parameters = User.Account.Operations.List.parameters
+            static let requestBody = User.Account.Operations.List.requestBody
+            static let responses: [OperationResponse] = User.Account.Operations
+                .List.responses
+        }
+
         enum Detail: Operation {
             static let security: [SecurityScheme.Type] = User.Account.Operations
                 .Detail.security
