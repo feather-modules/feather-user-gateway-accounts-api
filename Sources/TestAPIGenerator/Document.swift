@@ -3,8 +3,8 @@ import FeatherOpenAPIKit
 import Foundation
 import OpenAPIKit
 import SystemAPIKit
-import UserGatewayAccountsAPIKit
 import UserAPIKit
+import UserGatewayAccountsAPIKit
 
 struct OpenAPIDocument: Document {
 
