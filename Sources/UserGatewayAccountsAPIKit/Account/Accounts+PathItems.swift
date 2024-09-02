@@ -16,8 +16,6 @@ extension UserGateway.Accounts {
                 User.Account.Parameters.Id.self
             ]
             static let get: Operation.Type? = Operations.Detail.self
-            static let put: Operation.Type? = Operations.Update.self
-            static let patch: Operation.Type? = Operations.Patch.self
         }
 
         enum Reference: PathItem {
