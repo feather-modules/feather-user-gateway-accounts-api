@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/feather-framework/feather-openapi-kit", .upToNextMinor(from: "0.9.6")),
         .package(url: "https://github.com/feather-framework/feather-api-kit", .upToNextMinor(from: "0.1.1")),
         .package(url: "https://github.com/feather-modules/feather-system-api", .upToNextMinor(from: "0.2.0")),
-        .package(url: "https://github.com/feather-modules/feather-user-api", .upToNextMinor(from: "0.7.0")),
+        .package(url: "https://github.com/feather-modules/feather-user-api", .upToNextMinor(from: "0.8.1")),
         .package(url: "https://github.com/jpsim/Yams", from: "5.0.0"),
     ],
     targets: [

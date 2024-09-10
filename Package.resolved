@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/feather-framework/feather-api-kit",
       "state" : {
-        "revision" : "4bb59040e8e5ff6f7c1d7aead271b7c94b72c4ac",
-        "version" : "0.1.1"
+        "revision" : "b49c6f8f4d1b0d1018521cbbbe09b18b3e08e119",
+        "version" : "0.1.2"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/feather-framework/feather-openapi-kit",
       "state" : {
-        "revision" : "cec2d2e85ea01283d6f23c4daa4dfd11b748022c",
-        "version" : "0.9.6"
+        "revision" : "1628584159339ae5025c89be3e7d6201166a9e3e",
+        "version" : "0.9.8"
       }
     },
     {
@@ -25,6 +25,15 @@
       "state" : {
         "revision" : "ae4835e85b3ea6faa193b2450cf0adf0eac43531",
         "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "feather-user-api",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/feather-modules/feather-user-api",
+      "state" : {
+        "revision" : "799a1f65c0c7c77919d3ea865d1b12419614f388",
+        "version" : "0.8.1"
       }
     },
     {
