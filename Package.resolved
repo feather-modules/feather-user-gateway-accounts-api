@@ -28,15 +28,6 @@
       }
     },
     {
-      "identity" : "feather-user-api",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/feather-modules/feather-user-api",
-      "state" : {
-        "revision" : "d110f77a1ae0ca678dec3a96d762dc3862d15481",
-        "version" : "0.8.2"
-      }
-    },
-    {
       "identity" : "openapikit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattpolzin/OpenAPIKit",
